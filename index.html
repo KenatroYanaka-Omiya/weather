@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+  <link rel="stylesheet" href="weather.css">
+<title>ジョブトレ天気予報</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+　<body>
+<header>ジョブトレ天気予報</header>
+<div class="wrapper">
+  <div class="container">
+    <h1>今日の天気は？</h1>
+    <form id="weather-form">
+      <select name="city" id="city-input">
+      <option value="tokyo">渋谷・秋葉原</option>
+      <option value="saitama">大宮</option>
+      <option value="chiba">船橋</option>
+      <option value="osaka">心斎橋</option>
+      </select>
+      <button type="sumbit">決定</button>
+    </form>
+    <div id="weather-results">
+    </div>
+  </div>
+</div>
+　　<script src ="weather.js"></script>
+   <script>
+     let arai = document.querySelector("arai");
+     arai.src = "hare.png";
+   </script>
+　</body>
+</html>
